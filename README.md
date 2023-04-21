@@ -1,9 +1,10 @@
 # Bezier-Curve_OpenCV
 Draw cubic bezier curves on images using OpenCV in Python
 
-#Usage
+## Usage
 Here's the basic code to create a bezier curve on a black background image
-`
+
+```
 import numpy as np
 import cv2
 from bezier_curve import BezierCurve
@@ -17,4 +18,6 @@ img = BezierCurve.draw_curve(image_raw=img,
 
 cv2.imshow("Bezier Curve", img)
 cv2.waitKey(0)
-`
+```
+
+![Sample Img](screenshot.png)
